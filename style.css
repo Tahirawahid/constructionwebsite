@@ -537,6 +537,113 @@ h3{
 }
 .side-bar img{
     width: 130px;
+}
+.category{
+    color:#fff;
+    background: #ff650c;
+}
+.section1-heading a{
+    color: #080808;
+    font-weight: 500;
+}
+.section1-heading a:hover{
+    color: #ff650c;
+}
+.read-more-btn{
+    color:#fff;
+    background: #ff650c;
+}
+.read-more-btn:hover{
+    background: #080808;
+    color: #fff;
+}
+.recent-post a{
+    color: #080808;
+}
+.recent-post a:hover{
+    color: #ff650c;
+}
+.recent-post-heading{
+    color: #ff650c;
+}
+/* blog section 2 */
+.blog-section2{
+    background: rgba(252, 156, 54, 0.4);
+    height: 500px;
+}
+
+.blog-section2 img {
+    height: 250px;
+}
+.blog-section2 h2{
+    color: #080808;
+    font-weight: 500;
+    font-size: 35px;
 
 
+}
+.card-text{
+    font-size: 20px;
+    top: 231px;
+    color: #fff;
+}
+.card-example{
+    background-color: #080808;
+    background: linear-gradient(rgb(0, 0, 0, 0.1),rgb(0, 0, 0, 0.8)), url(./images/house.jpg);
+    background-size: cover;
+    min-height: 300px;
+    Margin-left:15px;
+    Margin-right:15px;
+    
+}
+.card-example:hover{
+    box-shadow: 0 0 10px #888;
+}
+/* blog section 3 */
+.blog-section3{
+    height: 500px;
+} 
+.blog-section3-left{
+    background-color: #ffffff;
+    background: linear-gradient(rgba(255, 255, 255, 0.1),rgba(2, 2, 2, 0.8)), url(./images/banner4.jpg);
+    min-height: 450px;
+    
+}
+.blog-section3 h3 {
+    color: #fff;
+}
+.blog-section3-right img{
+    width: 150px;
+    height: 150px ;
+}
+.blog-section3-right a{
+    color: #080808;
+    font-size: 10px;
+}
+
+.blog-section3-right a:hover{
+    color: #ff650c;
+}
+.blog-section3-right p {
+    font-size: 15px;
+}
+.blog-section4 h5{
+    font-size: 18px;
+}
+.blog-section4 a {
+    color: #080808;
+}
+.blog-section4{
+    background: rgba(252, 156, 54, 0.4);
+}
+.border-right{
+    border-right: 1px solid #888;
+
+}
+.border-bottom{
+    border-bottom: 1px solid #888;
+}
+
+.blog-section4 a:hover{
+    color: #ff650c
 }
