@@ -514,8 +514,7 @@ h3{
 
 .blog-banner{
     height: 400px;
-    background-image: url(./images/footer-bg.jpg);
-    background-position: center;
+    background-image: url(./images/blog-banner.jpg);
     background-size: cover;
     position: relative;
     z-index: 0;
@@ -524,9 +523,8 @@ h3{
 .blog-heading{
     z-index: 1;
     position: absolute;
-    border-radius: 5px;
     top: 206px;
-    background: rgb(255, 101, 12, 0.5);
+    background: rgba(46, 45, 45, 0.5);
     height: 70px;
     width: 100%;
 }
@@ -535,9 +533,7 @@ h3{
     color: #ffff;
     text-align: center;
 }
-.side-bar img{
-    width: 130px;
-}
+
 .category{
     color:#fff;
     background: #ff650c;
@@ -584,17 +580,25 @@ h3{
 }
 .card-text{
     font-size: 20px;
-    top: 231px;
+    top: 204px;
     color: #fff;
 }
 .card-example{
     background-color: #080808;
-    background: linear-gradient(rgb(0, 0, 0, 0.1),rgb(0, 0, 0, 0.8)), url(./images/house.jpg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1),rgb(0, 0, 0, 0.8)), url(./images/smart-cities.png);
     background-size: cover;
     min-height: 300px;
     Margin-left:15px;
     Margin-right:15px;
     
+}
+.card-example:nth-child(2){
+    background:  linear-gradient(rgb(0, 0, 0, 0.1),rgb(0, 0, 0, 0.8)), url(./images/renovation.jpg);
+    background-size: cover;
+}
+.card-example:nth-child(3){
+    background:  linear-gradient(rgb(0, 0, 0, 0.1),rgb(0, 0, 0, 0.8)), url(./images/workforce.png);
+    background-size: cover;
 }
 .card-example:hover{
     box-shadow: 0 0 10px #888;
@@ -607,15 +611,21 @@ h3{
     background-color: #ffffff;
     background: linear-gradient(rgba(255, 255, 255, 0.1),rgba(2, 2, 2, 0.8)), url(./images/banner4.jpg);
     min-height: 450px;
+    color: #fff;
     
+}
+.blog-section3-left h3:hover{
+    color: #ff650c;
 }
 .blog-section3 h3 {
     color: #fff;
+
 }
-.blog-section3-right img{
-    width: 150px;
-    height: 150px ;
+.blog-section3 h4{
+    font-size: 20px;
+
 }
+
 .blog-section3-right a{
     color: #080808;
     font-size: 10px;
@@ -629,6 +639,9 @@ h3{
 }
 .blog-section4 h5{
     font-size: 18px;
+}
+.blog-section4 P{
+    font-size: 13px;
 }
 .blog-section4 a {
     color: #080808;
