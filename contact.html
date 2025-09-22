@@ -1,15 +1,232 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <!-- banner section -->
-     <div class="blog-banner">
-        <h1>Welcome to our Construction Blog</h1>
-     </div>
-    
-</body>
-</html>
+
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.rtl.min.css"
+			integrity="sha384-CfCrinSRH2IR6a4e6fy2q6ioOX7O6Mtm1L9vRvFZ1trBncWmMePhzvafv7oIcWiW" crossorigin="anonymous">
+		<!-- bootstrap icon -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<link rel="stylesheet" href="style.css">
+
+		<title>Contact us</title>
+	</head>
+
+    <body>
+		
+                <!-- nav-bar -->
+	    <nav class="navbar navbar-expand-lg shadow" id="nav-bar">
+				<div class="container-fluid">
+					<a class="navbar-brand" href="#">
+						<img src="./images/logo.png" alt="company logo" id="brandlogo">
+					</a>
+					<div class="collapse justify-content-between navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="blog.html">Blog</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">
+									Services
+								</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item text-end" href="#">Renovation & Remodeling</a></li>
+									<li>
+										<hr class="dropdown-divider">
+									</li>
+									<li><a class="dropdown-item text-end" href="#">Interior Fit-Outs</a></li>
+									<li>
+										<hr class="dropdown-divider">
+									</li>
+									<li><a class="dropdown-item text-end" href="#">Steel & Metal Works</a></li>
+									<li>
+										<hr class="dropdown-divider">
+									</li>
+									<li><a class="dropdown-item text-end" href="#">Landscaping & Exterior Works</a></li>
+									<li>
+										<hr class="dropdown-divider">
+									</li>
+									<li><a class="dropdown-item text-end" href="#">Concrete & Masonry Services</a></li>
+								</ul>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+									aria-expanded="false">
+									Pages
+								</a>
+								<ul class="dropdown-menu">
+									<li><a class="dropdown-item text-end" href="#">Contact</a></li>
+									<li>
+										<hr class="dropdown-divider">
+									</li>
+									<li><a class="dropdown-item text-end" href="#">About</a></li>
+									<li>
+										<hr class="dropdown-divider">
+									</li>
+									<li><a class="dropdown-item text-end" href="#">Privacy & Policy</a></li>
+									<li>
+										<hr class="dropdown-divider">
+									</li>
+									<li><a class="dropdown-item text-end" href="#">FAQS</a></li>
+								</ul>
+							</li>
+						</ul>
+						<form class="d-flex flex-md-row-reverse" role="search">
+							<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+							<button class="btn btn-outline-success" type="submit">Search</button>
+						</form>
+					</div>
+				</div>
+		
+        </nav>
+
+        <div class="contact-banner">
+				<div class="contact-heading">
+					<h1>Let’s Build Something Together – Get in Touch</h1>
+				</div>
+		</div>
+        <div class="main">
+            <div class="contact-section mb-0">
+                <div class="container">
+                    <div class="row justify-content-evenly">
+                        <div class="col-md-5">
+                            <h2 class="mt-5 mb-4">Contact us </h2>
+                            <p class="contact-page-p">Have questions or project ideas? Reach out to our team today, and let’s discuss how we can bring them to life.</p>
+                            <p> <i class="bi bi-telephone footer-icon ps-2"></i> +1 800 9123 456 78</p>
+                            <p> <i class="bi bi-geo-alt footer-icon ps-2"></i> 4127 Lady Bug Drive Colorado</p>
+                            <p><i class="bi bi-envelope footer-icon ps-2 "></i> <a href="8456.com">example@mail.com</a></p>
+                        </div>
+                        <div class="col-md-5">
+                            <p class="mt-5" id="contact-p">We're here to help you with your project. Reach out today and let us provide a
+                            solution
+                            tailored to your needs.</p>
+                            <form>
+                            <div class="row mb-3">
+									<div class="col">
+										<label for="name" class="form-label">Name</label>
+										<input type="text" class="form-control" id="name" placeholder="Enter your name">
+									</div>
+									<div class="col">
+										<label for="email" class="form-label">Email</label>
+										<input type="email" class="form-control" id="email" placeholder="Enter your email">
+									</div>
+									</div>
+
+									<div class="mb-3">
+									<label for="date" class="form-label">Date</label>
+									<input type="date" class="form-control" id="date">
+									</div>
+
+									<div class="mb-3">
+									<label for="phone" class="form-label">Phone</label>
+									<input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+									</div>
+
+									<div class="mb-3">
+									<label for="message" class="form-label">Message</label>
+									<textarea class="form-control" id="message" rows="4" placeholder="Enter text here..."></textarea>
+									</div>
+
+									<button class="button mt-2 position-relative" style="left: 263px;"type="submit" class="btn text-white">Submit Form</button>
+							</form>
+                        </div>
+                    </div>
+                </div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6388394.715307112!2d-115.62260115827208!3d38.57217055785341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874014749b1856b7%3A0xc75483314990a7ff!2sColorado%2C%20USA!5e0!3m2!1sen!2s!4v1758483320152!5m2!1sen!2s" style="border:0; width: 100%; height: 500px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+                <!-- contact section -->
+            </div>
+
+        <!-- footer-section -->
+		<div class="footer-section">
+				<div class="container py-5">
+					<div class="row">
+						<div class="col-md-3">
+							<img src="./images/footer-logo.png" alt="">
+							<p class="py-3 footer-p">Consectetur adipisicing elit, sede dolores eiuse smod temporaleste incididunt
+								ut labore</p>
+							<p> <i class="bi bi-telephone footer-icon ps-2"></i> +1 800 9123 456 78</p>
+							<p> <i class="bi bi-geo-alt footer-icon ps-2"></i> 4127 Lady Bug Drive Colorado</p>
+							<p><i class="bi bi-envelope footer-icon ps-2 "></i> <a href="8456.com">example@mail.com</a></p>
+
+						</div>
+						<div class="col-md-3">
+							<h3 class="pt-3 mb-0 footer-h3 pe-3"><span class="h3-color">Quick</span> Links</h3>
+							<ul class="my-3 list-unstyled">
+								<li class="py-1"><a href=""><span>Home</span></a></li>
+								<li class="py-1"><a href=""><span>Feature</span></a></li>
+								<li class="py-1"><a href=""><span>Blog</span></a></li>
+								<li class="py-1"><a href=""><span>Portfolio</span></a></li>
+								<li class="py-1"><a href=""><span>About</span></a></li>
+								<li class="py-1"><a href=""><span>Contact</span></a></li>
+							</ul>
+
+						</div>
+						<div class="col-md-3">
+							<h3 class="pt-3 mb-0 footer-h3 pe-3"><span class="h3-color">Useful</span> Links</h3>
+							<ul class="my-3 list-unstyled">
+								<li class="py-1"><a href=""><span>Certification</span></a></li>
+								<li class="py-1"><a href=""><span>Affiliation</span></a></li>
+								<li class="py-1"><a href=""><span>Mission Vision</span></a></li>
+								<li class="py-1"><a href=""><span>FAQS</span></a></li>
+
+							</ul>
+
+						</div>
+						<div class="col-md-3">
+							<h1 id="footer-h1"><span class="h3-color">Subscribe</span> Newsletter</h1>
+							<p class="py-1 footer-p">Subscribe to our newsletter and stay in touch with us. Get latest updates and
+								offers.</p>
+							<div class="wraper">
+								<input type="text" name="email" id="" placeholder="Email">
+								<button class="me-2">Subscribe</button>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Sub-footer -->
+			<div class="sub-footer pt-3 pb-2">
+				<div class="container">
+					<div class="row justify-content-between ">
+						<div class="col-md-5 justify-content-end p-2">
+							<p class="small">Copyright © All Rights Reserved. Powered by <span
+									class="text-decoration">Templatemonster</span></p>
+						</div>
+						<div class="col-md-6">
+							<ul class="nav justify-content-end">
+								<li class="nav-item"><a class="nav-link p-2"><span>Home</span></a></li>
+								<li class="nav-item"><a class="nav-link p-2" href=""><span>Home</span></a></li>
+								<li class="nav-item"><a class="nav-link p-2" href=""><span>Blog</span></a></li>
+								<li class="nav-item"><a class="nav-link p-2" href=""><span>Services</span></a></li>
+								<li class="nav-item"><a class="nav-link p-2" href=""><span>Contact</span></a></li>
+								<li class="nav-item"><a class="nav-link p-2" href=""><span>About</span></a></li>
+							</ul>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- Option 1: Bootstrap Bundle with Popper -->
+		 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+			crossorigin="anonymous"></script>
+		</div>
+
+		
+	</body>
+
+</html>      
